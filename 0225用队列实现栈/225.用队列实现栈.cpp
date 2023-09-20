@@ -3,8 +3,10 @@
  *
  * [225] 用队列实现栈
  */
-#include <queue>
+
 // @lc code=start
+#include <queue>
+
 class MyStack {
  private:
   std::queue<int> queue1;
