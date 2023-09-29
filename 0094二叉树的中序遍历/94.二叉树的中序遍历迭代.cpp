@@ -7,7 +7,8 @@
 #include <vector>
 // @lc code=start
 
-struct TreeNode {
+struct TreeNode
+{
   int val;
   TreeNode *left;
   TreeNode *right;
@@ -17,23 +18,31 @@ struct TreeNode {
       : val(x), left(left), right(right) {}
 };
 
-class Solution {
- public:
-  std::vector<int> inorderTraversal(TreeNode *root) {
+class Solution
+{
+public:
+  std::vector<int> inorderTraversal(TreeNode *root)
+  {
     std::vector<int> result;
     std::stack<TreeNode *> stack;
 
-    if (!root) return result;
+    if (!root)
+      return result;
     TreeNode *curr = root;
-    while (curr || !stack.empty()) {
-      if (curr) {
+    while (curr || !stack.empty())
+    {
+      if (curr)
+      {
         stack.push(curr);
         curr = curr->left;
-      } else {
+      }
+      else
+      {
         TreeNode *topNode = stack.top();
         stack.pop();
         result.push_back(topNode->val);
-        if (topNode->right) curr = topNode->right;
+        if (topNode->right)
+          curr = topNode->right;
       }
     }
     return result;
