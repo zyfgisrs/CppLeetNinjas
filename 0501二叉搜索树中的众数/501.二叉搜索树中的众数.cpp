@@ -5,6 +5,8 @@
  */
 
 // @lc code=start
+#include <limits.h>
+
 #include <stack>
 #include <vector>
 
@@ -26,7 +28,7 @@ class Solution {
   std::vector<int> findMode(TreeNode *root) {
     std::stack<TreeNode *> stack;
     std::vector<int> vec;
-    int prev = root->val;
+    int prev = INT_MIN;
     int count = 0;
     int maxCount = 0;
     while (root || !stack.empty()) {
@@ -35,24 +37,24 @@ class Solution {
         root = root->left;
       }
 
-      TreeNode *top = stack.top();
+      root = stack.top();
       stack.pop();
-      if (top->val == prev) {
+      if (root->val == prev) {
         count++;
       } else {
         count = 1;
+        prev = root->val;
       }
 
       if (count > maxCount) {
-        vec.clear();
-        vec.push_back(top->val);
+        vec = {root->val};
         maxCount = count;
       } else if (count == maxCount) {
-        vec.push_back(top->val);
+        vec.push_back(root->val);
       }
 
-      prev = top->val;
-      root = top->right;
+      // 转向右子树
+      root = root->right;
     }
     return vec;
   }

@@ -1,0 +1,324 @@
+Date : 2023-10-07 08:55:42
+Directory : f:\GITHUB\CppLeetNinjas
+Total : 178 files,  1235 codes, 294 comments, 294 blanks, all 1823 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C++      |        159 |      1,055 |        294 |        214 |      1,563 |
+| Markdown |         19 |        180 |          0 |         80 |        260 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                               | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                  |        108 |      3,398 |        646 |        676 |      4,720 |
+| 0001两数之和                                                                                           |          1 |         19 |          1 |          2 |         22 |
+| 0015三数之和                                                                                           |          3 |        203 |         12 |         73 |        288 |
+| 0018四数之和                                                                                           |          2 |         63 |          0 |         20 |         83 |
+| 0019删除链表的倒数第 N 个结点                                                                                 |          1 |         27 |          0 |          2 |         29 |
+| 0020有效的括号                                                                                          |          1 |         31 |          7 |          6 |         44 |
+| 0024两两交换链表中的节点                                                                                     |          2 |         65 |          5 |          4 |         74 |
+| 0027移除元素                                                                                           |          1 |         21 |          0 |          2 |         23 |
+| 0028找出字符串中第一个匹配项的下标                                                                                |          1 |         32 |          2 |          5 |         39 |
+| 0059螺旋矩阵 II                                                                                        |          1 |         39 |          4 |          5 |         48 |
+| 0094二叉树的中序遍历                                                                                       |          2 |         68 |         14 |          8 |         90 |
+| 0098验证二叉搜索树                                                                                        |          2 |         51 |         30 |         19 |        100 |
+| 0101对称二叉树                                                                                          |          3 |        101 |         17 |         19 |        137 |
+| 0102二叉树的层序遍历                                                                                       |          1 |         33 |          8 |          4 |         45 |
+| 0104二叉树的最大深度                                                                                       |          1 |         17 |          8 |          3 |         28 |
+| 0105从前序与中序遍历序列构造二叉树                                                                                |          1 |         39 |          8 |          8 |         55 |
+| 0106从中序与后序遍历序列构造二叉树                                                                                |          2 |         72 |         16 |         13 |        101 |
+| 0107二叉树的层序遍历II                                                                                     |          1 |         35 |          8 |          5 |         48 |
+| 0110平衡二叉树                                                                                          |          3 |        127 |         16 |         45 |        188 |
+| 0111二叉树的最小深度                                                                                       |          2 |         62 |         17 |          9 |         88 |
+| 0112路径总和                                                                                           |          1 |         20 |          8 |          5 |         33 |
+| 0116填充每个节点的下一个右侧节点指针                                                                               |          1 |         35 |          8 |          7 |         50 |
+| 0117填充每个节点的下一个右侧节点指针II                                                                             |          1 |         35 |          8 |          6 |         49 |
+| 0142环形链表 II                                                                                        |          1 |         26 |          7 |          4 |         37 |
+| 0144二叉树的前序遍历                                                                                       |          2 |         55 |         20 |          9 |         84 |
+| 0145二叉树的后序遍历                                                                                       |          3 |        102 |         33 |         14 |        149 |
+| 0150逆波兰表达式求值                                                                                       |          1 |         35 |          7 |          4 |         46 |
+| 0151反转字符串中的单词                                                                                      |          1 |         43 |          7 |         13 |         63 |
+| 0199二叉树的右视图                                                                                        |          1 |         32 |          8 |          4 |         44 |
+| 0202快乐数                                                                                            |          1 |         30 |          5 |          7 |         42 |
+| 0203移除链表元素                                                                                         |          2 |         58 |          2 |          4 |         64 |
+| 0206反转链表                                                                                           |          2 |         40 |          2 |          3 |         45 |
+| 0209长度最小的子数组                                                                                       |          1 |         26 |          0 |          2 |         28 |
+| 0222完全二叉树的节点个数                                                                                     |          1 |         31 |          8 |          9 |         48 |
+| 0225用队列实现栈                                                                                         |          1 |         23 |         15 |          9 |         47 |
+| 0226翻转二叉树                                                                                          |          2 |         51 |         16 |          8 |         75 |
+| 0232用栈实现队列                                                                                         |          1 |         44 |         15 |          9 |         68 |
+| 0236二叉树的最近公共祖先                                                                                     |          3 |         87 |         23 |         34 |        144 |
+| 0239滑动窗口最大值                                                                                        |          2 |         58 |         17 |         14 |         89 |
+| 0242有效的字母异位词                                                                                       |          3 |        126 |          6 |         14 |        146 |
+| 0257二叉树的所有路径                                                                                       |          4 |        162 |         32 |         24 |        218 |
+| 0344反转字符串                                                                                          |          1 |         16 |          1 |          2 |         19 |
+| 0349两个数组的交集                                                                                        |          3 |         64 |          4 |         22 |         90 |
+| 0383赎金信                                                                                            |          2 |         37 |          0 |          5 |         42 |
+| 0404左叶子之和                                                                                          |          3 |         97 |         24 |         16 |        137 |
+| 0429N叉树的层序遍历                                                                                       |          1 |         39 |          8 |          8 |         55 |
+| 0450删除二叉搜索树中的节点                                                                                    |          1 |         13 |          8 |          4 |         25 |
+| 0454四数相加 II                                                                                        |          1 |         28 |          3 |          2 |         33 |
+| 0459重复的子串                                                                                          |          1 |          5 |          7 |          2 |         14 |
+| 0501二叉搜索树中的众数                                                                                      |          1 |         44 |         11 |          8 |         63 |
+| 0513找树左下角的值                                                                                        |          3 |         88 |         25 |         23 |        136 |
+| 0515在每个树行中找最大值                                                                                     |          1 |         22 |         20 |          5 |         47 |
+| 0530二叉搜索树的最小绝对差                                                                                    |          2 |         53 |         27 |         15 |         95 |
+| 0541反转字符串 II                                                                                       |          2 |         42 |          0 |         13 |         55 |
+| 0617合并二叉树                                                                                          |          2 |         55 |         16 |         14 |         85 |
+| 0637二叉树的层平均值                                                                                       |          1 |         33 |          8 |          4 |         45 |
+| 0654最大二叉树                                                                                          |          3 |        103 |         16 |         20 |        139 |
+| 0700二叉搜索树中的搜索                                                                                      |          1 |         22 |          8 |          4 |         34 |
+| 0701二叉搜索树中的插入操作                                                                                    |          1 |         25 |          8 |          5 |         38 |
+| 0704二分查找                                                                                           |          1 |         55 |          1 |          5 |         61 |
+| 0707设计链表                                                                                           |          1 |         87 |          0 |          9 |         96 |
+| 0977有序数组的平方                                                                                        |          1 |         29 |          0 |          2 |         31 |
+| 1047删除字符串中的所有相邻重复项                                                                                 |          2 |         37 |         14 |          4 |         55 |
+| 1993树上的操作                                                                                          |          1 |         57 |         17 |         12 |         86 |
+| e:\                                                                                                |         70 |     -2,163 |       -352 |       -382 |     -2,897 |
+| e:\GITHUB                                                                                          |         70 |     -2,163 |       -352 |       -382 |     -2,897 |
+| e:\GITHUB\CppLeetNinjas                                                                            |         70 |     -2,163 |       -352 |       -382 |     -2,897 |
+| e:\GITHUB\CppLeetNinjas\0001两数之和                                                                   |          1 |        -19 |         -1 |         -2 |        -22 |
+| e:\GITHUB\CppLeetNinjas\0015三数之和                                                                   |          3 |       -203 |        -12 |        -73 |       -288 |
+| e:\GITHUB\CppLeetNinjas\0018四数之和                                                                   |          2 |        -63 |          0 |        -20 |        -83 |
+| e:\GITHUB\CppLeetNinjas\0019删除链表的倒数第 N 个结点                                                         |          1 |        -27 |          0 |         -2 |        -29 |
+| e:\GITHUB\CppLeetNinjas\0020有效的括号                                                                  |          1 |        -31 |         -7 |         -6 |        -44 |
+| e:\GITHUB\CppLeetNinjas\0024两两交换链表中的节点                                                             |          2 |        -65 |         -5 |         -4 |        -74 |
+| e:\GITHUB\CppLeetNinjas\0027移除元素                                                                   |          1 |        -21 |          0 |         -2 |        -23 |
+| e:\GITHUB\CppLeetNinjas\0028找出字符串中第一个匹配项的下标                                                        |          1 |        -32 |         -2 |         -5 |        -39 |
+| e:\GITHUB\CppLeetNinjas\0059螺旋矩阵 II                                                                |          1 |        -39 |         -4 |         -5 |        -48 |
+| e:\GITHUB\CppLeetNinjas\0094二叉树的中序遍历                                                               |          2 |        -59 |        -14 |         -8 |        -81 |
+| e:\GITHUB\CppLeetNinjas\0102二叉树的层序遍历                                                               |          1 |        -33 |         -8 |         -4 |        -45 |
+| e:\GITHUB\CppLeetNinjas\0104二叉树的最大深度                                                               |          1 |        -17 |         -8 |         -3 |        -28 |
+| e:\GITHUB\CppLeetNinjas\0107二叉树的层序遍历II                                                             |          1 |        -35 |         -8 |         -5 |        -48 |
+| e:\GITHUB\CppLeetNinjas\0111二叉树的最小深度                                                               |          1 |        -38 |         -8 |         -3 |        -49 |
+| e:\GITHUB\CppLeetNinjas\0116填充每个节点的下一个右侧节点指针                                                       |          1 |        -35 |         -8 |         -7 |        -50 |
+| e:\GITHUB\CppLeetNinjas\0117填充每个节点的下一个右侧节点指针II                                                     |          1 |        -23 |        -24 |         -3 |        -50 |
+| e:\GITHUB\CppLeetNinjas\0142环形链表 II                                                                |          1 |        -26 |         -7 |         -4 |        -37 |
+| e:\GITHUB\CppLeetNinjas\0144二叉树的前序遍历                                                               |          2 |        -55 |        -20 |         -9 |        -84 |
+| e:\GITHUB\CppLeetNinjas\0145二叉树的后序遍历                                                               |          3 |       -102 |        -33 |        -14 |       -149 |
+| e:\GITHUB\CppLeetNinjas\0150逆波兰表达式求值                                                               |          1 |        -35 |         -7 |         -4 |        -46 |
+| e:\GITHUB\CppLeetNinjas\0151反转字符串中的单词                                                              |          1 |        -43 |         -7 |        -13 |        -63 |
+| e:\GITHUB\CppLeetNinjas\0199二叉树的右视图                                                                |          1 |        -32 |         -8 |         -4 |        -44 |
+| e:\GITHUB\CppLeetNinjas\0202快乐数                                                                    |          1 |        -30 |         -5 |         -7 |        -42 |
+| e:\GITHUB\CppLeetNinjas\0203移除链表元素                                                                 |          2 |        -58 |         -2 |         -4 |        -64 |
+| e:\GITHUB\CppLeetNinjas\0206反转链表                                                                   |          2 |        -40 |         -2 |         -3 |        -45 |
+| e:\GITHUB\CppLeetNinjas\0209长度最小的子数组                                                               |          1 |        -26 |          0 |         -2 |        -28 |
+| e:\GITHUB\CppLeetNinjas\0225用队列实现栈                                                                 |          1 |        -23 |        -15 |         -9 |        -47 |
+| e:\GITHUB\CppLeetNinjas\0226翻转二叉树                                                                  |          2 |        -51 |        -16 |         -8 |        -75 |
+| e:\GITHUB\CppLeetNinjas\0232用栈实现队列                                                                 |          1 |        -44 |        -15 |         -9 |        -68 |
+| e:\GITHUB\CppLeetNinjas\0239滑动窗口最大值                                                                |          2 |        -58 |        -17 |        -14 |        -89 |
+| e:\GITHUB\CppLeetNinjas\0242有效的字母异位词                                                               |          3 |       -126 |         -6 |        -14 |       -146 |
+| e:\GITHUB\CppLeetNinjas\0344反转字符串                                                                  |          1 |        -16 |         -1 |         -2 |        -19 |
+| e:\GITHUB\CppLeetNinjas\0349两个数组的交集                                                                |          3 |        -64 |         -4 |        -22 |        -90 |
+| e:\GITHUB\CppLeetNinjas\0383赎金信                                                                    |          2 |        -37 |          0 |         -5 |        -42 |
+| e:\GITHUB\CppLeetNinjas\0429N叉树的层序遍历                                                               |          1 |        -39 |         -8 |         -8 |        -55 |
+| e:\GITHUB\CppLeetNinjas\0454四数相加 II                                                                |          1 |        -28 |         -3 |         -2 |        -33 |
+| e:\GITHUB\CppLeetNinjas\0459重复的子串                                                                  |          1 |         -5 |         -7 |         -2 |        -14 |
+| e:\GITHUB\CppLeetNinjas\0515在每个树行中找最大值                                                             |          1 |        -22 |        -20 |         -5 |        -47 |
+| e:\GITHUB\CppLeetNinjas\0541反转字符串 II                                                               |          2 |        -42 |          0 |        -13 |        -55 |
+| e:\GITHUB\CppLeetNinjas\0637二叉树的层平均值                                                               |          1 |        -33 |         -8 |         -4 |        -45 |
+| e:\GITHUB\CppLeetNinjas\0704二分查找                                                                   |          1 |        -55 |         -1 |         -5 |        -61 |
+| e:\GITHUB\CppLeetNinjas\0707设计链表                                                                   |          1 |        -87 |          0 |         -9 |        -96 |
+| e:\GITHUB\CppLeetNinjas\0977有序数组的平方                                                                |          1 |        -29 |          0 |         -2 |        -31 |
+| e:\GITHUB\CppLeetNinjas\1047删除字符串中的所有相邻重复项                                                         |          2 |        -37 |        -14 |         -4 |        -55 |
+| e:\GITHUB\CppLeetNinjas\1993树上的操作                                                                  |          1 |        -57 |        -17 |        -12 |        -86 |
+| e:\GITHUB\CppLeetNinjas\剑指Offer                                                                    |          4 |        -88 |          0 |        -14 |       -102 |
+| e:\GITHUB\CppLeetNinjas\剑指Offer\0005替换空格                                                           |          3 |        -69 |          0 |        -11 |        -80 |
+| e:\GITHUB\CppLeetNinjas\剑指Offer\0058左旋转字符串                                                         |          1 |        -19 |          0 |         -3 |        -22 |
+| e:\GITHUB\CppLeetNinjas\面试题                                                                        |          2 |        -35 |          0 |         -3 |        -38 |
+| e:\GITHUB\CppLeetNinjas\面试题\0207链表相交                                                               |          2 |        -35 |          0 |         -3 |        -38 |
+| 剑指Offer                                                                                            |          4 |         88 |          0 |         14 |        102 |
+| 剑指Offer\0005替换空格                                                                                   |          3 |         69 |          0 |         11 |         80 |
+| 剑指Offer\0058左旋转字符串                                                                                 |          1 |         19 |          0 |          3 |         22 |
+| 面试题                                                                                                |          2 |         35 |          0 |          3 |         38 |
+| 面试题\0207链表相交                                                                                       |          2 |         35 |          0 |          3 |         38 |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                           | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| e:\GITHUB\CppLeetNinjas\0001两数之和\two-sum.cpp                                                       | C++      |        -19 |         -1 |         -2 |        -22 |
+| e:\GITHUB\CppLeetNinjas\0015三数之和\3sum_hashmap.cpp                                                  | C++      |        -41 |         -7 |         -4 |        -52 |
+| e:\GITHUB\CppLeetNinjas\0015三数之和\3sum_two_pointer.cpp                                              | C++      |        -34 |         -5 |        -11 |        -50 |
+| e:\GITHUB\CppLeetNinjas\0015三数之和\README.markdown                                                   | Markdown |       -128 |          0 |        -58 |       -186 |
+| e:\GITHUB\CppLeetNinjas\0018四数之和\4sum.cpp                                                          | C++      |        -39 |          0 |        -10 |        -49 |
+| e:\GITHUB\CppLeetNinjas\0018四数之和\README.markdown                                                   | Markdown |        -24 |          0 |        -10 |        -34 |
+| e:\GITHUB\CppLeetNinjas\0019删除链表的倒数第 N 个结点\0019remove-nth-node-from-end-of-list.cpp                | C++      |        -27 |          0 |         -2 |        -29 |
+| e:\GITHUB\CppLeetNinjas\0020有效的括号\20.有效的括号.cpp                                                     | C++      |        -31 |         -7 |         -6 |        -44 |
+| e:\GITHUB\CppLeetNinjas\0024两两交换链表中的节点\0024swap-nodes-in-pairs_dd.cpp                              | C++      |        -34 |         -1 |         -2 |        -37 |
+| e:\GITHUB\CppLeetNinjas\0024两两交换链表中的节点\0024swap-nodes-in-pairs_dg.cpp                              | C++      |        -31 |         -4 |         -2 |        -37 |
+| e:\GITHUB\CppLeetNinjas\0027移除元素\remove_element.cpp                                                | C++      |        -21 |          0 |         -2 |        -23 |
+| e:\GITHUB\CppLeetNinjas\0028找出字符串中第一个匹配项的下标\find-the-index-of-the-first-occurrence-in-a-string.cpp | C++      |        -32 |         -2 |         -5 |        -39 |
+| e:\GITHUB\CppLeetNinjas\0059螺旋矩阵 II\spiral-matrix-ii.cpp                                           | C++      |        -39 |         -4 |         -5 |        -48 |
+| e:\GITHUB\CppLeetNinjas\0094二叉树的中序遍历\94.二叉树的中序遍历迭代.cpp                                             | C++      |        -32 |         -7 |         -4 |        -43 |
+| e:\GITHUB\CppLeetNinjas\0094二叉树的中序遍历\94.二叉树的中序遍历递归.cpp                                             | C++      |        -27 |         -7 |         -4 |        -38 |
+| e:\GITHUB\CppLeetNinjas\0102二叉树的层序遍历\102.二叉树的层序遍历.cpp                                              | C++      |        -33 |         -8 |         -4 |        -45 |
+| e:\GITHUB\CppLeetNinjas\0104二叉树的最大深度\104.二叉树的最大深度.cpp                                              | C++      |        -17 |         -8 |         -3 |        -28 |
+| e:\GITHUB\CppLeetNinjas\0107二叉树的层序遍历II\107.二叉树的层序遍历-ii.cpp                                         | C++      |        -35 |         -8 |         -5 |        -48 |
+| e:\GITHUB\CppLeetNinjas\0111二叉树的最小深度\111.二叉树的最小深度.cpp                                              | C++      |        -38 |         -8 |         -3 |        -49 |
+| e:\GITHUB\CppLeetNinjas\0116填充每个节点的下一个右侧节点指针\116.填充每个节点的下一个右侧节点指针.cpp                              | C++      |        -35 |         -8 |         -7 |        -50 |
+| e:\GITHUB\CppLeetNinjas\0117填充每个节点的下一个右侧节点指针II\117.填充每个节点的下一个右侧节点指针-ii.cpp                         | C++      |        -23 |        -24 |         -3 |        -50 |
+| e:\GITHUB\CppLeetNinjas\0142环形链表 II\142.环形链表-ii.cpp                                                | C++      |        -26 |         -7 |         -4 |        -37 |
+| e:\GITHUB\CppLeetNinjas\0144二叉树的前序遍历\144.二叉树的前序遍历迭代实现.cpp                                          | C++      |        -29 |        -13 |         -5 |        -47 |
+| e:\GITHUB\CppLeetNinjas\0144二叉树的前序遍历\144.二叉树的前序遍历递归实现.cpp                                          | C++      |        -26 |         -7 |         -4 |        -37 |
+| e:\GITHUB\CppLeetNinjas\0145二叉树的后序遍历\145.二叉树的后序遍历迭代01.cpp                                          | C++      |        -32 |         -7 |         -4 |        -43 |
+| e:\GITHUB\CppLeetNinjas\0145二叉树的后序遍历\145.二叉树的后序遍历迭代02.cpp                                          | C++      |        -44 |         -7 |         -6 |        -57 |
+| e:\GITHUB\CppLeetNinjas\0145二叉树的后序遍历\145.二叉树的后序遍历递归.cpp                                            | C++      |        -26 |        -19 |         -4 |        -49 |
+| e:\GITHUB\CppLeetNinjas\0150逆波兰表达式求值\150.逆波兰表达式求值.cpp                                              | C++      |        -35 |         -7 |         -4 |        -46 |
+| e:\GITHUB\CppLeetNinjas\0151反转字符串中的单词\everse-words-in-a-string.cpp                                 | C++      |        -43 |         -7 |        -13 |        -63 |
+| e:\GITHUB\CppLeetNinjas\0199二叉树的右视图\199.二叉树的右视图.cpp                                                | C++      |        -32 |         -8 |         -4 |        -44 |
+| e:\GITHUB\CppLeetNinjas\0202快乐数\0202happy-number.cpp                                               | C++      |        -30 |         -5 |         -7 |        -42 |
+| e:\GITHUB\CppLeetNinjas\0203移除链表元素\remove-linked-list-elements.cpp                                 | C++      |        -29 |         -1 |         -3 |        -33 |
+| e:\GITHUB\CppLeetNinjas\0203移除链表元素\remove-linked-list-elements_s.cpp                               | C++      |        -29 |         -1 |         -1 |        -31 |
+| e:\GITHUB\CppLeetNinjas\0206反转链表\reverse-linked-list_dd.cpp                                        | C++      |        -21 |         -1 |         -1 |        -23 |
+| e:\GITHUB\CppLeetNinjas\0206反转链表\reverse-linked-list_dg.cpp                                        | C++      |        -19 |         -1 |         -2 |        -22 |
+| e:\GITHUB\CppLeetNinjas\0209长度最小的子数组\minimum_size_subarray_sum.cpp                                 | C++      |        -26 |          0 |         -2 |        -28 |
+| e:\GITHUB\CppLeetNinjas\0225用队列实现栈\225.用队列实现栈.cpp                                                  | C++      |        -23 |        -15 |         -9 |        -47 |
+| e:\GITHUB\CppLeetNinjas\0226翻转二叉树\226.翻转二叉树迭代解法.cpp                                                | C++      |        -30 |         -8 |         -4 |        -42 |
+| e:\GITHUB\CppLeetNinjas\0226翻转二叉树\226.翻转二叉树递归解法.cpp                                                | C++      |        -21 |         -8 |         -4 |        -33 |
+| e:\GITHUB\CppLeetNinjas\0232用栈实现队列\232.用栈实现队列.cpp                                                  | C++      |        -44 |        -15 |         -9 |        -68 |
+| e:\GITHUB\CppLeetNinjas\0239滑动窗口最大值\239.滑动窗口最大值_01.cpp                                             | C++      |        -36 |         -7 |         -7 |        -50 |
+| e:\GITHUB\CppLeetNinjas\0239滑动窗口最大值\239.滑动窗口最大值_02.cpp                                             | C++      |        -22 |        -10 |         -7 |        -39 |
+| e:\GITHUB\CppLeetNinjas\0242有效的字母异位词\README.markdown                                               | Markdown |        -85 |          0 |         -9 |        -94 |
+| e:\GITHUB\CppLeetNinjas\0242有效的字母异位词\valid-anagram.cpp                                             | C++      |        -21 |         -3 |         -2 |        -26 |
+| e:\GITHUB\CppLeetNinjas\0242有效的字母异位词\valid-anagram_v.cpp                                           | C++      |        -20 |         -3 |         -3 |        -26 |
+| e:\GITHUB\CppLeetNinjas\0344反转字符串\reverse-string.cpp                                               | C++      |        -16 |         -1 |         -2 |        -19 |
+| e:\GITHUB\CppLeetNinjas\0349两个数组的交集\README.markdown                                                | Markdown |        -22 |          0 |        -16 |        -38 |
+| e:\GITHUB\CppLeetNinjas\0349两个数组的交集\intersection-of-two-arrays_01.cpp                              | C++      |        -16 |         -4 |         -2 |        -22 |
+| e:\GITHUB\CppLeetNinjas\0349两个数组的交集\intersection-of-two-arrays_02.cpp                              | C++      |        -26 |          0 |         -4 |        -30 |
+| e:\GITHUB\CppLeetNinjas\0383赎金信\ransom-note_01.cpp                                                 | C++      |        -20 |          0 |         -3 |        -23 |
+| e:\GITHUB\CppLeetNinjas\0383赎金信\ransom-note_02.cpp                                                 | C++      |        -17 |          0 |         -2 |        -19 |
+| e:\GITHUB\CppLeetNinjas\0429N叉树的层序遍历\429.n-叉树的层序遍历.cpp                                             | C++      |        -39 |         -8 |         -8 |        -55 |
+| e:\GITHUB\CppLeetNinjas\0454四数相加 II\4sum-ii.cpp                                                    | C++      |        -28 |         -3 |         -2 |        -33 |
+| e:\GITHUB\CppLeetNinjas\0459重复的子串\459.重复的子字符串.cpp                                                  | C++      |         -5 |         -7 |         -2 |        -14 |
+| e:\GITHUB\CppLeetNinjas\0515在每个树行中找最大值\515.在每个树行中找最大值.cpp                                          | C++      |        -22 |        -20 |         -5 |        -47 |
+| e:\GITHUB\CppLeetNinjas\0541反转字符串 II\README.markdown                                               | Markdown |        -17 |          0 |         -8 |        -25 |
+| e:\GITHUB\CppLeetNinjas\0541反转字符串 II\reverse-string-ii.cpp                                         | C++      |        -25 |          0 |         -5 |        -30 |
+| e:\GITHUB\CppLeetNinjas\0637二叉树的层平均值\637.二叉树的层平均值.cpp                                              | C++      |        -33 |         -8 |         -4 |        -45 |
+| e:\GITHUB\CppLeetNinjas\0704二分查找\binary_search.cpp                                                 | C++      |        -55 |         -1 |         -5 |        -61 |
+| e:\GITHUB\CppLeetNinjas\0707设计链表\0707design-linked-list.cpp                                        | C++      |        -87 |          0 |         -9 |        -96 |
+| e:\GITHUB\CppLeetNinjas\0977有序数组的平方\square_of_a_sorted_array.cpp                                   | C++      |        -29 |          0 |         -2 |        -31 |
+| e:\GITHUB\CppLeetNinjas\1047删除字符串中的所有相邻重复项\1047.删除字符串中的所有相邻重复项_01.cpp                              | C++      |        -21 |         -7 |         -2 |        -30 |
+| e:\GITHUB\CppLeetNinjas\1047删除字符串中的所有相邻重复项\1047.删除字符串中的所有相邻重复项_02.cpp                              | C++      |        -16 |         -7 |         -2 |        -25 |
+| e:\GITHUB\CppLeetNinjas\1993树上的操作\1993.树上的操作.cpp                                                   | C++      |        -57 |        -17 |        -12 |        -86 |
+| e:\GITHUB\CppLeetNinjas\剑指Offer\0005替换空格\README.markdown                                           | Markdown |        -26 |          0 |         -8 |        -34 |
+| e:\GITHUB\CppLeetNinjas\剑指Offer\0005替换空格\ti-huan-kong-ge-lcof_01.cpp                               | C++      |        -16 |          0 |         -1 |        -17 |
+| e:\GITHUB\CppLeetNinjas\剑指Offer\0005替换空格\ti-huan-kong-ge-lcof_02.cpp                               | C++      |        -27 |          0 |         -2 |        -29 |
+| e:\GITHUB\CppLeetNinjas\剑指Offer\0058左旋转字符串\zuo-xuan-zhuan-zi-fu-chuan-lcof.cpp                     | C++      |        -19 |          0 |         -3 |        -22 |
+| e:\GITHUB\CppLeetNinjas\面试题\0207链表相交\README.markdown                                               | Markdown |        -18 |          0 |         -2 |        -20 |
+| e:\GITHUB\CppLeetNinjas\面试题\0207链表相交\intersection-of-two-linked-lists-lcci.cpp                     | C++      |        -17 |          0 |         -1 |        -18 |
+| f:\GITHUB\CppLeetNinjas\0001两数之和\two-sum.cpp                                                       | C++      |         19 |          1 |          2 |         22 |
+| f:\GITHUB\CppLeetNinjas\0015三数之和\3sum_hashmap.cpp                                                  | C++      |         41 |          7 |          4 |         52 |
+| f:\GITHUB\CppLeetNinjas\0015三数之和\3sum_two_pointer.cpp                                              | C++      |         34 |          5 |         11 |         50 |
+| f:\GITHUB\CppLeetNinjas\0015三数之和\README.markdown                                                   | Markdown |        128 |          0 |         58 |        186 |
+| f:\GITHUB\CppLeetNinjas\0018四数之和\4sum.cpp                                                          | C++      |         39 |          0 |         10 |         49 |
+| f:\GITHUB\CppLeetNinjas\0018四数之和\README.markdown                                                   | Markdown |         24 |          0 |         10 |         34 |
+| f:\GITHUB\CppLeetNinjas\0019删除链表的倒数第 N 个结点\0019remove-nth-node-from-end-of-list.cpp                | C++      |         27 |          0 |          2 |         29 |
+| f:\GITHUB\CppLeetNinjas\0020有效的括号\20.有效的括号.cpp                                                     | C++      |         31 |          7 |          6 |         44 |
+| f:\GITHUB\CppLeetNinjas\0024两两交换链表中的节点\0024swap-nodes-in-pairs_dd.cpp                              | C++      |         34 |          1 |          2 |         37 |
+| f:\GITHUB\CppLeetNinjas\0024两两交换链表中的节点\0024swap-nodes-in-pairs_dg.cpp                              | C++      |         31 |          4 |          2 |         37 |
+| f:\GITHUB\CppLeetNinjas\0027移除元素\remove_element.cpp                                                | C++      |         21 |          0 |          2 |         23 |
+| f:\GITHUB\CppLeetNinjas\0028找出字符串中第一个匹配项的下标\find-the-index-of-the-first-occurrence-in-a-string.cpp | C++      |         32 |          2 |          5 |         39 |
+| f:\GITHUB\CppLeetNinjas\0059螺旋矩阵 II\spiral-matrix-ii.cpp                                           | C++      |         39 |          4 |          5 |         48 |
+| f:\GITHUB\CppLeetNinjas\0094二叉树的中序遍历\94.二叉树的中序遍历迭代.cpp                                             | C++      |         41 |          7 |          4 |         52 |
+| f:\GITHUB\CppLeetNinjas\0094二叉树的中序遍历\94.二叉树的中序遍历递归.cpp                                             | C++      |         27 |          7 |          4 |         38 |
+| f:\GITHUB\CppLeetNinjas\0098验证二叉搜索树\98.验证二叉搜索树迭代实现.cpp                                             | C++      |         31 |          8 |         12 |         51 |
+| f:\GITHUB\CppLeetNinjas\0098验证二叉搜索树\98.验证二叉搜索树递归实现.cpp                                             | C++      |         20 |         22 |          7 |         49 |
+| f:\GITHUB\CppLeetNinjas\0101对称二叉树\101.对称二叉树迭代实现.cpp                                                | C++      |         40 |          9 |          8 |         57 |
+| f:\GITHUB\CppLeetNinjas\0101对称二叉树\101.对称二叉树递归实现.cpp                                                | C++      |         31 |          8 |          4 |         43 |
+| f:\GITHUB\CppLeetNinjas\0101对称二叉树\README.markdown                                                  | Markdown |         30 |          0 |          7 |         37 |
+| f:\GITHUB\CppLeetNinjas\0102二叉树的层序遍历\102.二叉树的层序遍历.cpp                                              | C++      |         33 |          8 |          4 |         45 |
+| f:\GITHUB\CppLeetNinjas\0104二叉树的最大深度\104.二叉树的最大深度.cpp                                              | C++      |         17 |          8 |          3 |         28 |
+| f:\GITHUB\CppLeetNinjas\0105从前序与中序遍历序列构造二叉树\105.从前序与中序遍历序列构造二叉树.cpp                                | C++      |         39 |          8 |          8 |         55 |
+| f:\GITHUB\CppLeetNinjas\0106从中序与后序遍历序列构造二叉树\106.从中序与后序遍历序列构造二叉树.cpp                                | C++      |         32 |          8 |          3 |         43 |
+| f:\GITHUB\CppLeetNinjas\0106从中序与后序遍历序列构造二叉树\106.从中序与后序遍历序列构造二叉树优化.cpp                              | C++      |         40 |          8 |         10 |         58 |
+| f:\GITHUB\CppLeetNinjas\0107二叉树的层序遍历II\107.二叉树的层序遍历-ii.cpp                                         | C++      |         35 |          8 |          5 |         48 |
+| f:\GITHUB\CppLeetNinjas\0110平衡二叉树\110.平衡二叉树迭代法.cpp                                                 | C++      |         52 |          8 |          6 |         66 |
+| f:\GITHUB\CppLeetNinjas\0110平衡二叉树\110.平衡二叉树递归法.cpp                                                 | C++      |         23 |          8 |          8 |         39 |
+| f:\GITHUB\CppLeetNinjas\0110平衡二叉树\README.markdown                                                  | Markdown |         52 |          0 |         31 |         83 |
+| f:\GITHUB\CppLeetNinjas\0111二叉树的最小深度\111.二叉树的最小深度迭代法.cpp                                           | C++      |         38 |          8 |          3 |         49 |
+| f:\GITHUB\CppLeetNinjas\0111二叉树的最小深度\111.二叉树的最小深度递归法.cpp                                           | C++      |         24 |          9 |          6 |         39 |
+| f:\GITHUB\CppLeetNinjas\0112路径总和\112.路径总和.cpp                                                      | C++      |         20 |          8 |          5 |         33 |
+| f:\GITHUB\CppLeetNinjas\0116填充每个节点的下一个右侧节点指针\116.填充每个节点的下一个右侧节点指针.cpp                              | C++      |         35 |          8 |          7 |         50 |
+| f:\GITHUB\CppLeetNinjas\0117填充每个节点的下一个右侧节点指针II\117.填充每个节点的下一个右侧节点指针-ii.cpp                         | C++      |         35 |          8 |          6 |         49 |
+| f:\GITHUB\CppLeetNinjas\0142环形链表 II\142.环形链表-ii.cpp                                                | C++      |         26 |          7 |          4 |         37 |
+| f:\GITHUB\CppLeetNinjas\0144二叉树的前序遍历\144.二叉树的前序遍历迭代实现.cpp                                          | C++      |         29 |         13 |          5 |         47 |
+| f:\GITHUB\CppLeetNinjas\0144二叉树的前序遍历\144.二叉树的前序遍历递归实现.cpp                                          | C++      |         26 |          7 |          4 |         37 |
+| f:\GITHUB\CppLeetNinjas\0145二叉树的后序遍历\145.二叉树的后序遍历迭代01.cpp                                          | C++      |         32 |          7 |          4 |         43 |
+| f:\GITHUB\CppLeetNinjas\0145二叉树的后序遍历\145.二叉树的后序遍历迭代02.cpp                                          | C++      |         44 |          7 |          6 |         57 |
+| f:\GITHUB\CppLeetNinjas\0145二叉树的后序遍历\145.二叉树的后序遍历递归.cpp                                            | C++      |         26 |         19 |          4 |         49 |
+| f:\GITHUB\CppLeetNinjas\0150逆波兰表达式求值\150.逆波兰表达式求值.cpp                                              | C++      |         35 |          7 |          4 |         46 |
+| f:\GITHUB\CppLeetNinjas\0151反转字符串中的单词\everse-words-in-a-string.cpp                                 | C++      |         43 |          7 |         13 |         63 |
+| f:\GITHUB\CppLeetNinjas\0199二叉树的右视图\199.二叉树的右视图.cpp                                                | C++      |         32 |          8 |          4 |         44 |
+| f:\GITHUB\CppLeetNinjas\0202快乐数\0202happy-number.cpp                                               | C++      |         30 |          5 |          7 |         42 |
+| f:\GITHUB\CppLeetNinjas\0203移除链表元素\remove-linked-list-elements.cpp                                 | C++      |         29 |          1 |          3 |         33 |
+| f:\GITHUB\CppLeetNinjas\0203移除链表元素\remove-linked-list-elements_s.cpp                               | C++      |         29 |          1 |          1 |         31 |
+| f:\GITHUB\CppLeetNinjas\0206反转链表\reverse-linked-list_dd.cpp                                        | C++      |         21 |          1 |          1 |         23 |
+| f:\GITHUB\CppLeetNinjas\0206反转链表\reverse-linked-list_dg.cpp                                        | C++      |         19 |          1 |          2 |         22 |
+| f:\GITHUB\CppLeetNinjas\0209长度最小的子数组\minimum_size_subarray_sum.cpp                                 | C++      |         26 |          0 |          2 |         28 |
+| f:\GITHUB\CppLeetNinjas\0222完全二叉树的节点个数\222.完全二叉树的节点个数.cpp                                          | C++      |         31 |          8 |          9 |         48 |
+| f:\GITHUB\CppLeetNinjas\0225用队列实现栈\225.用队列实现栈.cpp                                                  | C++      |         23 |         15 |          9 |         47 |
+| f:\GITHUB\CppLeetNinjas\0226翻转二叉树\226.翻转二叉树迭代解法.cpp                                                | C++      |         30 |          8 |          4 |         42 |
+| f:\GITHUB\CppLeetNinjas\0226翻转二叉树\226.翻转二叉树递归解法.cpp                                                | C++      |         21 |          8 |          4 |         33 |
+| f:\GITHUB\CppLeetNinjas\0232用栈实现队列\232.用栈实现队列.cpp                                                  | C++      |         44 |         15 |          9 |         68 |
+| f:\GITHUB\CppLeetNinjas\0236二叉树的最近公共祖先\236.二叉树的最近公共祖先哈希.cpp                                        | C++      |         38 |          8 |         11 |         57 |
+| f:\GITHUB\CppLeetNinjas\0236二叉树的最近公共祖先\236.二叉树的最近公共祖先递归.cpp                                        | C++      |         20 |         15 |          8 |         43 |
+| f:\GITHUB\CppLeetNinjas\0236二叉树的最近公共祖先\README.markdown                                             | Markdown |         29 |          0 |         15 |         44 |
+| f:\GITHUB\CppLeetNinjas\0239滑动窗口最大值\239.滑动窗口最大值_01.cpp                                             | C++      |         36 |          7 |          7 |         50 |
+| f:\GITHUB\CppLeetNinjas\0239滑动窗口最大值\239.滑动窗口最大值_02.cpp                                             | C++      |         22 |         10 |          7 |         39 |
+| f:\GITHUB\CppLeetNinjas\0242有效的字母异位词\README.markdown                                               | Markdown |         85 |          0 |          9 |         94 |
+| f:\GITHUB\CppLeetNinjas\0242有效的字母异位词\valid-anagram.cpp                                             | C++      |         21 |          3 |          2 |         26 |
+| f:\GITHUB\CppLeetNinjas\0242有效的字母异位词\valid-anagram_v.cpp                                           | C++      |         20 |          3 |          3 |         26 |
+| f:\GITHUB\CppLeetNinjas\0257二叉树的所有路径\257.二叉树的所有路径双栈.cpp                                            | C++      |         42 |          8 |          6 |         56 |
+| f:\GITHUB\CppLeetNinjas\0257二叉树的所有路径\257.二叉树的所有路径哈希表.cpp                                           | C++      |         43 |          8 |          4 |         55 |
+| f:\GITHUB\CppLeetNinjas\0257二叉树的所有路径\257.二叉树的所有路径递归01.cpp                                          | C++      |         39 |          8 |          7 |         54 |
+| f:\GITHUB\CppLeetNinjas\0257二叉树的所有路径\257.二叉树的所有路径递归02.cpp                                          | C++      |         38 |          8 |          7 |         53 |
+| f:\GITHUB\CppLeetNinjas\0344反转字符串\reverse-string.cpp                                               | C++      |         16 |          1 |          2 |         19 |
+| f:\GITHUB\CppLeetNinjas\0349两个数组的交集\README.markdown                                                | Markdown |         22 |          0 |         16 |         38 |
+| f:\GITHUB\CppLeetNinjas\0349两个数组的交集\intersection-of-two-arrays_01.cpp                              | C++      |         16 |          4 |          2 |         22 |
+| f:\GITHUB\CppLeetNinjas\0349两个数组的交集\intersection-of-two-arrays_02.cpp                              | C++      |         26 |          0 |          4 |         30 |
+| f:\GITHUB\CppLeetNinjas\0383赎金信\ransom-note_01.cpp                                                 | C++      |         20 |          0 |          3 |         23 |
+| f:\GITHUB\CppLeetNinjas\0383赎金信\ransom-note_02.cpp                                                 | C++      |         17 |          0 |          2 |         19 |
+| f:\GITHUB\CppLeetNinjas\0404左叶子之和\404.左叶子之和迭代1.cpp                                                 | C++      |         37 |          8 |          6 |         51 |
+| f:\GITHUB\CppLeetNinjas\0404左叶子之和\404.左叶子之和迭代2.cpp                                                 | C++      |         39 |          8 |          5 |         52 |
+| f:\GITHUB\CppLeetNinjas\0404左叶子之和\404.左叶子之和递归.cpp                                                  | C++      |         21 |          8 |          5 |         34 |
+| f:\GITHUB\CppLeetNinjas\0429N叉树的层序遍历\429.n-叉树的层序遍历.cpp                                             | C++      |         39 |          8 |          8 |         55 |
+| f:\GITHUB\CppLeetNinjas\0450删除二叉搜索树中的节点\450.删除二叉搜索树中的节点.cpp                                        | C++      |         13 |          8 |          4 |         25 |
+| f:\GITHUB\CppLeetNinjas\0454四数相加 II\4sum-ii.cpp                                                    | C++      |         28 |          3 |          2 |         33 |
+| f:\GITHUB\CppLeetNinjas\0459重复的子串\459.重复的子字符串.cpp                                                  | C++      |          5 |          7 |          2 |         14 |
+| f:\GITHUB\CppLeetNinjas\0501二叉搜索树中的众数\501.二叉搜索树中的众数.cpp                                            | C++      |         44 |         11 |          8 |         63 |
+| f:\GITHUB\CppLeetNinjas\0513找树左下角的值\513.找树左下角的值迭代法.cpp                                             | C++      |         33 |          8 |          4 |         45 |
+| f:\GITHUB\CppLeetNinjas\0513找树左下角的值\513.找树左下角的值递归法.cpp                                             | C++      |         20 |         17 |          6 |         43 |
+| f:\GITHUB\CppLeetNinjas\0513找树左下角的值\README.markdown                                                | Markdown |         35 |          0 |         13 |         48 |
+| f:\GITHUB\CppLeetNinjas\0515在每个树行中找最大值\515.在每个树行中找最大值.cpp                                          | C++      |         22 |         20 |          5 |         47 |
+| f:\GITHUB\CppLeetNinjas\0530二叉搜索树的最小绝对差\530.二叉搜索树的最小绝对差.cpp                                        | C++      |         32 |         10 |          6 |         48 |
+| f:\GITHUB\CppLeetNinjas\0530二叉搜索树的最小绝对差\530.二叉搜索树的最小绝对差递归.cpp                                      | C++      |         21 |         17 |          9 |         47 |
+| f:\GITHUB\CppLeetNinjas\0541反转字符串 II\README.markdown                                               | Markdown |         17 |          0 |          8 |         25 |
+| f:\GITHUB\CppLeetNinjas\0541反转字符串 II\reverse-string-ii.cpp                                         | C++      |         25 |          0 |          5 |         30 |
+| f:\GITHUB\CppLeetNinjas\0617合并二叉树\617.合并二叉树.cpp                                                    | C++      |         35 |          8 |          7 |         50 |
+| f:\GITHUB\CppLeetNinjas\0617合并二叉树\617.合并二叉树简化方法.cpp                                                | C++      |         20 |          8 |          7 |         35 |
+| f:\GITHUB\CppLeetNinjas\0637二叉树的层平均值\637.二叉树的层平均值.cpp                                              | C++      |         33 |          8 |          4 |         45 |
+| f:\GITHUB\CppLeetNinjas\0654最大二叉树\654.最大二叉树迭代法.cpp                                                 | C++      |         34 |          8 |          2 |         44 |
+| f:\GITHUB\CppLeetNinjas\0654最大二叉树\654.最大二叉树递归法.cpp                                                 | C++      |         35 |          8 |          4 |         47 |
+| f:\GITHUB\CppLeetNinjas\0654最大二叉树\README.markdown                                                  | Markdown |         34 |          0 |         14 |         48 |
+| f:\GITHUB\CppLeetNinjas\0700二叉搜索树中的搜索\700.二叉搜索树中的搜索.cpp                                            | C++      |         22 |          8 |          4 |         34 |
+| f:\GITHUB\CppLeetNinjas\0701二叉搜索树中的插入操作\701.二叉搜索树中的插入操作.cpp                                        | C++      |         25 |          8 |          5 |         38 |
+| f:\GITHUB\CppLeetNinjas\0704二分查找\binary_search.cpp                                                 | C++      |         55 |          1 |          5 |         61 |
+| f:\GITHUB\CppLeetNinjas\0707设计链表\0707design-linked-list.cpp                                        | C++      |         87 |          0 |          9 |         96 |
+| f:\GITHUB\CppLeetNinjas\0977有序数组的平方\square_of_a_sorted_array.cpp                                   | C++      |         29 |          0 |          2 |         31 |
+| f:\GITHUB\CppLeetNinjas\1047删除字符串中的所有相邻重复项\1047.删除字符串中的所有相邻重复项_01.cpp                              | C++      |         21 |          7 |          2 |         30 |
+| f:\GITHUB\CppLeetNinjas\1047删除字符串中的所有相邻重复项\1047.删除字符串中的所有相邻重复项_02.cpp                              | C++      |         16 |          7 |          2 |         25 |
+| f:\GITHUB\CppLeetNinjas\1993树上的操作\1993.树上的操作.cpp                                                   | C++      |         57 |         17 |         12 |         86 |
+| f:\GITHUB\CppLeetNinjas\剑指Offer\0005替换空格\README.markdown                                           | Markdown |         26 |          0 |          8 |         34 |
+| f:\GITHUB\CppLeetNinjas\剑指Offer\0005替换空格\ti-huan-kong-ge-lcof_01.cpp                               | C++      |         16 |          0 |          1 |         17 |
+| f:\GITHUB\CppLeetNinjas\剑指Offer\0005替换空格\ti-huan-kong-ge-lcof_02.cpp                               | C++      |         27 |          0 |          2 |         29 |
+| f:\GITHUB\CppLeetNinjas\剑指Offer\0058左旋转字符串\zuo-xuan-zhuan-zi-fu-chuan-lcof.cpp                     | C++      |         19 |          0 |          3 |         22 |
+| f:\GITHUB\CppLeetNinjas\面试题\0207链表相交\README.markdown                                               | Markdown |         18 |          0 |          2 |         20 |
+| f:\GITHUB\CppLeetNinjas\面试题\0207链表相交\intersection-of-two-linked-lists-lcci.cpp                     | C++      |         17 |          0 |          1 |         18 |
+| Total                                                                                              |          |      1,235 |        294 |        294 |      1,823 |
++----------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
