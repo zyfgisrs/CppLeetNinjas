@@ -38,9 +38,7 @@ class Solution {
     int left = 0;
     int right = n - 1;
     while (left < right) {
-      if (str[left] != str[right]) return false;
-      left++;
-      right--;
+      if (str[left++] != str[right--]) return false;
     }
     return true;
   }
