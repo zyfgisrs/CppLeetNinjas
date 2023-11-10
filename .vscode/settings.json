@@ -41,5 +41,13 @@
         "typeinfo": "cpp",
         "unordered_set": "cpp",
         "set": "cpp",
+        "bit": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "numbers": "cpp"
     }
 }

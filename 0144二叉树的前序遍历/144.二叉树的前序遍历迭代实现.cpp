@@ -20,12 +20,6 @@ struct TreeNode {
 
 class Solution {
  public:
-  /**
-   * @brief 用栈来暂时存储遍历过的结点，弹出的结点放到结果列表中
-   *
-   * @param root 根节点
-   * @return std::vector<int> 返回的结果
-   */
   std::vector<int> preorderTraversal(TreeNode *root) {
     std::vector<int> result;
     std::stack<TreeNode *> stack;
