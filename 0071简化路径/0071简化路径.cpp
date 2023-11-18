@@ -1,21 +1,32 @@
-#include <iostream>
 #include <sstream>
 #include <string>
 #include <vector>
 
-int main() {
-  std::string text = ",,,";
-  std::stringstream ss(text);
-  std::vector<std::string> tokens;
-  std::string curr;
+class Solution {
+ public:
+  std::string simplifyPath(std::string path) {
+    std::stringstream ss(path);
+    std::string curr;
+    std::vector<std::string> st;
 
-  while (std::getline(ss, curr, ',')) {
-    tokens.push_back(curr);
-  }
+    while (std::getline(ss, curr, '/')) {
+      if (curr == "" || curr == ".") continue;
+      if (curr == "..") {
+        if (!st.empty()) {
+          st.pop_back();
+        }
+      } else {
+        st.push_back(curr);
+      }
+    }
 
-  std::cout << tokens.size() << std::endl;
-
-  for (int i = 0; i < tokens.size(); i++) {
-    std::cout << tokens[i] << std::endl;
+    std::string result = "/";
+    for (int i = 0; i < st.size(); i++) {
+      result += st[i];
+      if (i < st.size() - 1) {
+        result += "/";
+      }
+    }
+    return result;
   }
 };
