@@ -8,7 +8,7 @@ class Solution {
       if (index1 >= 0 && nums1[index1] > nums2[index2]) {
         nums1[mergeIndex--] = nums1[index1--];
       } else {
-        nums2[mergeIndex--] = nums2[index2--];
+        nums1[mergeIndex--] = nums2[index2--];
       }
     }
   }
