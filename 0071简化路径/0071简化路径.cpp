@@ -7,26 +7,23 @@ class Solution {
   std::string simplifyPath(std::string path) {
     std::stringstream ss(path);
     std::string curr;
-    std::vector<std::string> st;
+    std::vector<std::string> vec;
 
     while (std::getline(ss, curr, '/')) {
       if (curr == "" || curr == ".") continue;
       if (curr == "..") {
-        if (!st.empty()) {
-          st.pop_back();
-        }
+        if (!vec.empty()) vec.pop_back();
       } else {
-        st.push_back(curr);
+        vec.push_back(curr);
       }
     }
 
-    std::string result = "/";
-    for (int i = 0; i < st.size(); i++) {
-      result += st[i];
-      if (i < st.size() - 1) {
-        result += "/";
-      }
+    std::string str = "/";
+    int s = vec.size();
+    for (int i = 0; i < s; i++) {
+      str += vec[i];
+      if (i < s - 1) str += "/";
     }
-    return result;
+    return str;
   }
 };
