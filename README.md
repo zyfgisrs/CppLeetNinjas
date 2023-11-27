@@ -1,1 +1,1 @@
-# c++版力扣代码
+# prue C++ LeetCode
