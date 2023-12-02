@@ -10,6 +10,16 @@ class Solution {
     std::vector<int> result(spells.size());
 
     for (int i = 0; i < spells.size(); i++) {
+      if ((long long)spells[i] * potions.front() >= success) {
+        result[i] = spells.size();
+        continue;
+      }
+
+      if ((long long)spells[i] * potions.back() < success) {
+        result[i] = 0;
+        continue;
+      }
+
       int left = 0;
       int right = potions.size();
 

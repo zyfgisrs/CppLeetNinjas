@@ -3,30 +3,28 @@
 class Solution {
  public:
   bool search(std::vector<int>& nums, int target) {
-    int left = 0;
-    int right = nums.size() - 1;
+    int low = 0;
+    int high = nums.size() - 1;
 
-    while (left <= right) {
-      int mid = left + (right - left) / 2;
+    while (low <= high) {
+      int midIndex = low + (high - low) / 2;
 
-      if (nums[mid] == target) {
-        return true;
-      }
+      if (nums[midIndex] == target) return true;
 
-      if (nums[left] == nums[mid] && nums[right] == nums[mid]) {
-        left++;
-        right--;
-      } else if (nums[left] <= nums[mid]) {
-        if (nums[left] <= target && nums[mid] > target) {
-          right = mid - 1;
+      if (nums[low] == nums[midIndex] && nums[high] == nums[midIndex]) {
+        ++low;
+        --high;
+      } else if (nums[low] <= nums[midIndex]) {
+        if (nums[low] <= target && target < nums[midIndex]) {
+          high = midIndex - 1;
         } else {
-          left = mid + 1;
+          low = midIndex + 1;
         }
       } else {
-        if (nums[mid] < target && target <= nums[right]) {
-          left = mid + 1;
+        if (nums[high] >= target && target > nums[midIndex]) {
+          low = midIndex + 1;
         } else {
-          right = mid - 1;
+          high = midIndex - 1;
         }
       }
     }
