@@ -17,8 +17,8 @@ class Solution {
     }
 
     for (std::vector<int> seq : prerequisites) {
-      if (graph[seq[0]].insert(seq[1]).second) {
-        inDegree[seq[1]]++;
+      if (graph[seq[1]].insert(seq[0]).second) {
+        inDegree[seq[0]]++;
       }
     }
 

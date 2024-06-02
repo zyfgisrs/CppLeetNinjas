@@ -3,22 +3,19 @@
 class Solution {
  public:
   void sortColors(std::vector<int>& nums) {
-    int low = 0;
-    int mid = 0;
-    int high = nums.size() - 1;
-    while (mid <= high) {
-      if (nums[mid] == 2) {
-        int temp = nums[mid];
-        nums[mid] = nums[high];
-        nums[high] = temp;
-        high--;
-      } else if (nums[mid] == 0) {
-        int temp = nums[mid];
-        nums[mid] = nums[low];
-        nums[low] = temp;
-        low++;
-      } else {
+    int left = 0, mid = 0, right = nums.size() - 1;
+
+    while (mid <= right) {
+      if (nums[mid] == 1) {
         mid++;
+      } else if (nums[mid] == 0) {
+        int temp = nums[left];
+        nums[left++] = 0;
+        nums[mid++] = temp;
+      } else {
+        int temp = nums[right];
+        nums[right--] = 2;
+        nums[mid] = temp;
       }
     }
   }

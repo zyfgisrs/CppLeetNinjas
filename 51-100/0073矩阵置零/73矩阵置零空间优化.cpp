@@ -6,12 +6,11 @@ class Solution {
   void setZeroes(std::vector<std::vector<int>>& matrix) {
     std::unordered_set<int> iset;
     std::unordered_set<int> jset;
+    int n = matrix.size();
+    int m = matrix[0].size();
 
-    int m = matrix.size();
-    int n = matrix[0].size();
-
-    for (int i = 0; i < m; i++) {
-      for (int j = 0; j < n; j++) {
+    for (int i = 0; i < n; i++) {
+      for (int j = 0; j < m; j++) {
         if (matrix[i][j] == 0) {
           iset.insert(i);
           jset.insert(j);
@@ -19,8 +18,8 @@ class Solution {
       }
     }
 
-    for (int i = 0; i < m; i++) {
-      for (int j = 0; j < n; j++) {
+    for (int i = 0; i < n; i++) {
+      for (int j = 0; j < m; j++) {
         if (iset.find(i) != iset.end() || jset.find(j) != jset.end()) {
           matrix[i][j] = 0;
         }

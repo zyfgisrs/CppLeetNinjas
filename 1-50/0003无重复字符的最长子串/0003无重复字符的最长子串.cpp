@@ -1,23 +1,21 @@
+#include <algorithm>
 #include <string>
-#include <unordered_map>
+#include <vector>
+
 class Solution {
  public:
   int lengthOfLongestSubstring(std::string s) {
-    std::unordered_map<char, int> lastPosition;
-    int maxLength = 0, start = 0;
-
-    for (int i = 0; i < s.size(); i++) {
-      // 如果字符s[i]之前出现过，则更新start
-      if (lastPosition.find(s[i]) != lastPosition.end()) {
-        start = std::max(start, lastPosition[s[i]] + 1);
+    std::vector<int> charIndex(256, -1);
+    int maxLen = 0;
+    int left = 0;
+    for (int right = 0; right < s.size(); right++) {
+      if (charIndex[s[right]] >= left) {
+        left = charIndex[s[right]] + 1;
       }
 
-      // 更新字符s[i]的最新位置
-      lastPosition[s[i]] = i;
-
-      // 更新最大长度
-      maxLength = std::max(maxLength, i - start + 1);
+      charIndex[s[right]] = right;
+      maxLen = std::max(maxLen, right - left + 1);
     }
-    return maxLength;
+    return maxLen;
   }
 };
